@@ -1,0 +1,161 @@
+export interface Product {
+  id: string;
+  code: string;
+  name: string;
+  price: number;
+  cost: number;
+  stock: number;
+  category: string;
+  source?: 'local' | 'web';
+  desc?: string;
+  image?: string;
+  oferta?: boolean;
+  nuevo?: boolean;
+}
+
+export interface Client {
+  id: string;
+  document: string; // RUC/DNI
+  name: string;
+  phone?: string;
+  email?: string;
+}
+
+export interface CartItem {
+  product: Product;
+  quantity: number;
+}
+
+export interface CompanyConfig {
+  companyName: string;
+  address: string;
+  phone: string;
+  email: string;
+  whatsapp?: string;
+  hours?: string;
+  gitToken?: string;
+}
+
+export interface PaymentMethod {
+  id: string;
+  name: string;
+  requiresCash?: boolean;
+  icon?: string;
+  adjustment?: number; // porcentaje de ajuste: positivo=recargo, negativo=descuento
+}
+
+export interface Sale {
+  id: string;
+  date: string;
+  items: {
+    productId: string;
+    productName: string;
+    quantity: number;
+    price: number;
+  }[];
+  total: number;
+  paymentMethod: string;
+  clientId?: string;
+  clientName?: string;
+  cashReceived?: number;
+  change?: number;
+}
+
+export interface Provider {
+  id: string;
+  ruc: string;
+  name: string;
+  phone?: string;
+  email?: string;
+}
+
+export interface Purchase {
+  id: string;
+  date: string;
+  providerId: string;
+  providerName: string;
+  items: {
+    productId: string;
+    productName: string;
+    quantity: number;
+    cost: number;
+  }[];
+  total: number;
+}
+
+export interface Expense {
+  id: string;
+  date: string;
+  type: 'efectivo' | 'transferencia';
+  description: string;
+  amount: number;
+}
+
+export interface CashRegister {
+  cash: number;
+  bank: number;
+}
+
+export interface WebRepair {
+  id: string;
+  code: string;
+  clientId: string;
+  equipment: string;
+  status: string;
+  price: number;
+  problem: string;
+  notes?: string;
+  date: string;
+}
+
+export interface WebClient {
+  id: string;
+  name: string;
+  phone: string;
+  email?: string;
+  address?: string;
+}
+
+export interface WebService {
+  id: string;
+  name: string;
+  description: string;
+  icon: string;
+}
+
+export interface WebConfig {
+  companyName?: string;
+  address?: string;
+  phone?: string;
+  whatsapp?: string;
+  email?: string;
+  hours?: string;
+  instagram?: string;
+  facebook?: string;
+  siteTitle?: string;
+  metaDescription?: string;
+  ga4Id?: string;
+  gtmId?: string;
+  productLimit?: number;
+  randomOrder?: boolean;
+  popupActive?: boolean;
+  popupAlways?: boolean;
+  popupDuration?: number;
+  popupDelay?: number;
+  popupText?: string;
+  popupImage?: string;
+  banners?: WebBanner[];
+  categories?: WebCategory[];
+}
+
+export interface WebBanner {
+  image: string;
+  title: string;
+  link: string;
+  description: string;
+}
+
+export interface WebCategory {
+  id: string;
+  name: string;
+}

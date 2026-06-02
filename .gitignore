@@ -1,0 +1,9 @@
+node_modules/
+dist/
+Exe/
+database.db
+database.json
+*.log
+.env
+.env.example
+.nexusroot
