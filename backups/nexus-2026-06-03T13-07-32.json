@@ -42546,6 +42546,46 @@
       ]
     },
     {
+      "id": "VEN-933101",
+      "date": "2026-06-02T00:00:00.000Z",
+      "total": 56000,
+      "paymentMethod": "Transferencia",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 56000,
+      "change": 0,
+      "items": [
+        {
+          "id": 36,
+          "saleId": "VEN-933101",
+          "productId": "1778695173925rwgi",
+          "productName": "Access Point Tplink RE200",
+          "quantity": 1,
+          "price": 56000
+        }
+      ]
+    },
+    {
+      "id": "VEN-985434",
+      "date": "2026-06-02T00:00:00.000Z",
+      "total": 75000,
+      "paymentMethod": "Efectivo",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 75000,
+      "change": 0,
+      "items": [
+        {
+          "id": 37,
+          "saleId": "VEN-985434",
+          "productId": "1780410222507",
+          "productName": "Servicio Tecnico",
+          "quantity": 1,
+          "price": 75000
+        }
+      ]
+    },
+    {
       "id": "VEN-012921",
       "date": "2026-06-01T16:06:52.921Z",
       "total": 5000,
@@ -42670,7 +42710,8 @@
       }
     ],
     "sgtallerEnabled": true,
-    "sgtallerDbPath": "C:\\SGTaller 3 Demo\\Base\\service.fdb"
+    "sgtallerDbPath": "C:\\SGTaller 3 Demo\\Base\\service.fdb",
+    "gitToken": "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"
   },
   "stockWarningEnabled": false,
   "expenses": [
@@ -42715,6 +42756,13 @@
       "type": "efectivo",
       "descriptionText": "Comision",
       "amount": 5000
+    },
+    {
+      "id": "EGR-460612",
+      "date": "2026-06-03T00:00:00.000Z",
+      "type": "efectivo",
+      "descriptionText": "Internet",
+      "amount": 15000
     }
   ],
   "cashRegister": {
