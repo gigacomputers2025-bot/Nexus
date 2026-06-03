@@ -8960,7 +8960,7 @@
       "oferta": false,
       "nuevo": false,
       "webDesc": "",
-      "ofertaPrice": 0,
+      "ofertaPrice": "0.0",
       "fichaTecnica": "",
       "fichaTecnicaFile": ""
     },
@@ -8978,7 +8978,7 @@
       "oferta": false,
       "nuevo": false,
       "webDesc": "",
-      "ofertaPrice": 0,
+      "ofertaPrice": "0.0",
       "fichaTecnica": "",
       "fichaTecnicaFile": ""
     },
@@ -8996,7 +8996,7 @@
       "oferta": false,
       "nuevo": false,
       "webDesc": "",
-      "ofertaPrice": 0,
+      "ofertaPrice": "0.0",
       "fichaTecnica": "",
       "fichaTecnicaFile": ""
     }
@@ -41885,6 +41885,114 @@
     }
   ],
   "sales": [
+    {
+      "id": "VEN-218285",
+      "date": "2026-06-03T00:00:00.000Z",
+      "total": 19500,
+      "paymentMethod": "Efectivo",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 19500,
+      "change": 0,
+      "items": [
+        {
+          "id": 38,
+          "saleId": "VEN-218285",
+          "productId": "1778691513007p1at",
+          "productName": "Cargador Universal Notebook",
+          "quantity": 1,
+          "price": 19500
+        }
+      ]
+    },
+    {
+      "id": "VEN-500301",
+      "date": "2026-06-03T00:00:00.000Z",
+      "total": 11500,
+      "paymentMethod": "Transferencia",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 11500,
+      "change": 0,
+      "items": [
+        {
+          "id": 39,
+          "saleId": "VEN-500301",
+          "productId": "1778691172083jq8a",
+          "productName": "Auricular Samsung S8",
+          "quantity": 1,
+          "price": 4000
+        },
+        {
+          "id": 40,
+          "saleId": "VEN-500301",
+          "productId": "177869117208489au",
+          "productName": "Auricular Samsung Tipo C",
+          "quantity": 1,
+          "price": 7500
+        }
+      ]
+    },
+    {
+      "id": "VEN-378610",
+      "date": "2026-06-03T00:00:00.000Z",
+      "total": 30000,
+      "paymentMethod": "Transferencia",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 30000,
+      "change": 0,
+      "items": [
+        {
+          "id": 41,
+          "saleId": "VEN-378610",
+          "productId": "1778694347937dnsa",
+          "productName": "Pendrive 16Gb",
+          "quantity": 2,
+          "price": 15000
+        }
+      ]
+    },
+    {
+      "id": "VEN-425795",
+      "date": "2026-06-03T00:00:00.000Z",
+      "total": 5000,
+      "paymentMethod": "Efectivo",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 5000,
+      "change": 0,
+      "items": [
+        {
+          "id": 42,
+          "saleId": "VEN-425795",
+          "productId": "1778691216927ltxg",
+          "productName": "Cable Impresora 1.8Mts 1.5Mts",
+          "quantity": 1,
+          "price": 5000
+        }
+      ]
+    },
+    {
+      "id": "VEN-807975",
+      "date": "2026-06-03T00:00:00.000Z",
+      "total": 8000,
+      "paymentMethod": "Transferencia",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 8000,
+      "change": 0,
+      "items": [
+        {
+          "id": 43,
+          "saleId": "VEN-807975",
+          "productId": "1778690911983fjgw",
+          "productName": "Cable Usb Reforzado multiple",
+          "quantity": 1,
+          "price": 8000
+        }
+      ]
+    },
     {
       "id": "VEN-793218",
       "date": "2026-06-02T20:06:33.218Z",
