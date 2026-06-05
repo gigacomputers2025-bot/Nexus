@@ -3907,24 +3907,6 @@
       "fichaTecnicaFile": ""
     },
     {
-      "id": "1778691513012up6f",
-      "code": "1778691513012up6f",
-      "name": "Micro SD 256gb 170Mbs",
-      "price": 59000,
-      "cost": 0,
-      "stock": 0,
-      "category": "Memorias",
-      "source": "web",
-      "desc": "Importado masivamente",
-      "image": "https://images.unsplash.com/photo-1588702547919-26089e690ecc?auto=format&fit=crop&w=500&q=60",
-      "oferta": false,
-      "nuevo": false,
-      "webDesc": "Importado masivamente",
-      "ofertaPrice": "0.0",
-      "fichaTecnica": "",
-      "fichaTecnicaFile": ""
-    },
-    {
       "id": "17786915130132g2y",
       "code": "17786915130132g2y",
       "name": "Mouse Gamer Raptor Wireless 12800",
@@ -41875,6 +41857,166 @@
   ],
   "sales": [
     {
+      "id": "VEN-575257",
+      "date": "2026-06-05T15:49:34.000Z",
+      "total": 4000,
+      "paymentMethod": "Transferencia",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 4000,
+      "change": 0,
+      "items": [
+        {
+          "id": 209,
+          "saleId": "VEN-575257",
+          "productId": "1778694665895jkr5",
+          "productName": "MousePad Comun chico",
+          "quantity": 1,
+          "price": 4000
+        }
+      ]
+    },
+    {
+      "id": "VEN-805111",
+      "date": "2026-06-05T15:20:05.000Z",
+      "total": 21000,
+      "paymentMethod": "Efectivo",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 21000,
+      "change": 0,
+      "items": [
+        {
+          "id": 208,
+          "saleId": "VEN-805111",
+          "productId": "1778696424425ak8x",
+          "productName": "Tripode Camaras Grande",
+          "quantity": 1,
+          "price": 21000
+        }
+      ]
+    },
+    {
+      "id": "VEN-543737",
+      "date": "2026-06-05T15:15:43.000Z",
+      "total": 45000,
+      "paymentMethod": "Transferencia",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 45000,
+      "change": 0,
+      "items": [
+        {
+          "id": 207,
+          "saleId": "VEN-543737",
+          "productId": "1780410222507",
+          "productName": "Servicio Tecnico",
+          "quantity": 1,
+          "price": 45000
+        }
+      ]
+    },
+    {
+      "id": "VEN-419199",
+      "date": "2026-06-05T14:56:59.000Z",
+      "total": 10000,
+      "paymentMethod": "Transferencia",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 10000,
+      "change": 0,
+      "items": [
+        {
+          "id": 206,
+          "saleId": "VEN-419199",
+          "productId": "1778690911982uwkr",
+          "productName": "Apoya celular",
+          "quantity": 2,
+          "price": 5000
+        }
+      ]
+    },
+    {
+      "id": "VEN-182096",
+      "date": "2026-06-05T14:53:02.000Z",
+      "total": 7000,
+      "paymentMethod": "Transferencia",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 7000,
+      "change": 0,
+      "items": [
+        {
+          "id": 205,
+          "saleId": "VEN-182096",
+          "productId": "1778691216918h83g",
+          "productName": "Cable de Red 10.0Mts",
+          "quantity": 1,
+          "price": 7000
+        }
+      ]
+    },
+    {
+      "id": "VEN-871192",
+      "date": "2026-06-05T14:14:31.000Z",
+      "total": 17000,
+      "paymentMethod": "Efectivo",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 17000,
+      "change": 0,
+      "items": [
+        {
+          "id": 204,
+          "saleId": "VEN-871192",
+          "productId": "1780422719981",
+          "productName": "Varios",
+          "quantity": 1,
+          "price": 17000
+        }
+      ]
+    },
+    {
+      "id": "VEN-625156",
+      "date": "2026-06-05T14:10:25.000Z",
+      "total": 22500,
+      "paymentMethod": "Transferencia",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 22500,
+      "change": 0,
+      "items": [
+        {
+          "id": 203,
+          "saleId": "VEN-625156",
+          "productId": "1778691273663q194",
+          "productName": "Cable Power Trebol Mickey",
+          "quantity": 5,
+          "price": 4500
+        }
+      ]
+    },
+    {
+      "id": "VEN-947195",
+      "date": "2026-06-05T13:42:27.000Z",
+      "total": 16000,
+      "paymentMethod": "Transferencia",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 16000,
+      "change": 0,
+      "items": [
+        {
+          "id": 202,
+          "saleId": "VEN-947195",
+          "productId": "1778696454093iv4f",
+          "productName": "Teclado Comun USB",
+          "quantity": 1,
+          "price": 16000
+        }
+      ]
+    },
+    {
       "id": "VEN-259640",
       "date": "2026-06-04T21:24:19.000Z",
       "total": 4000,
@@ -43561,6 +43703,13 @@
       "type": "efectivo",
       "descriptionText": "",
       "amount": 15000
+    },
+    {
+      "id": "EGR-018447",
+      "date": "2026-06-05T00:00:00.000Z",
+      "type": "efectivo",
+      "descriptionText": "Ypf",
+      "amount": 4000
     }
   ],
   "cashRegister": {
@@ -43787,6 +43936,22 @@
   },
   "repairs": [
     {
+      "id": "REP-075442",
+      "code": "X97XM",
+      "clientId": "1780419304170lgf2",
+      "clientName": "Juan Manuel Esso",
+      "clientPhone": "15-3060-6878",
+      "equipment": "Pc Escritorio",
+      "marca": "ninguno",
+      "modelo": "ninguno",
+      "status": "Entregada",
+      "problem": "Bios",
+      "notes": "",
+      "price": 45000,
+      "date": "2026-06-05",
+      "updatedAt": "2026-06-05T15:16:13.471Z"
+    },
+    {
       "id": "REP-175696",
       "code": "584U4",
       "clientId": "1780584348165",
@@ -43811,12 +43976,12 @@
       "equipment": "All in One",
       "marca": "lenovo",
       "modelo": "Lenovo",
-      "status": "Recibida",
+      "status": "Finalizada",
       "problem": "Lentitud",
       "notes": "",
       "price": 0,
       "date": "2026-06-04",
-      "updatedAt": "2026-06-04"
+      "updatedAt": "2026-06-05T15:53:28.221Z"
     },
     {
       "id": "REP-965730",
@@ -43859,12 +44024,12 @@
       "equipment": "Disco Rigido Externo",
       "marca": "Noga",
       "modelo": "Noga",
-      "status": "Finalizada",
+      "status": "Entregada",
       "problem": "revisar no funciona",
       "notes": "Lleva disco externo de 500\n$65000",
       "price": 65000,
       "date": "2026-06-03",
-      "updatedAt": ""
+      "updatedAt": "2026-06-05T15:21:11.897Z"
     },
     {
       "id": "REP-154583",
@@ -43883,7 +44048,188 @@
       "updatedAt": ""
     }
   ],
-  "restockPending": [],
+  "restockPending": [
+    {
+      "id": "PEND-287942",
+      "productId": "1778695226612filp",
+      "productName": "Auricular P9 - P9 pro max",
+      "productCode": "1778695226612filp",
+      "quantity": 4,
+      "createdAt": "2026-06-05T16:01:27.942Z",
+      "updatedAt": "2026-06-05T16:01:27.942Z"
+    },
+    {
+      "id": "PEND-271705",
+      "productId": "1778691172076r1lz",
+      "productName": "Auricular Bluetooth E6s",
+      "productCode": "1778691172076r1lz",
+      "quantity": 5,
+      "createdAt": "2026-06-05T16:01:11.706Z",
+      "updatedAt": "2026-06-05T16:01:11.706Z"
+    },
+    {
+      "id": "PEND-180599",
+      "productId": "17786937274312w6m",
+      "productName": "Consola HDMI Stick",
+      "productCode": "17786937274312w6m",
+      "quantity": 2,
+      "createdAt": "2026-06-05T15:59:40.599Z",
+      "updatedAt": "2026-06-05T15:59:40.599Z"
+    },
+    {
+      "id": "PEND-130036",
+      "productId": "1780512117912",
+      "productName": "Adaptador Tipo C a Miniplug",
+      "productCode": "1780512117912",
+      "quantity": 5,
+      "createdAt": "2026-06-05T15:58:50.036Z",
+      "updatedAt": "2026-06-05T15:58:50.036Z"
+    },
+    {
+      "id": "PEND-102084",
+      "productId": "1778690911982dp5k",
+      "productName": "Balanza Chica",
+      "productCode": "1778690911982dp5k",
+      "quantity": 1,
+      "createdAt": "2026-06-05T15:58:22.084Z",
+      "updatedAt": "2026-06-05T15:58:22.084Z"
+    },
+    {
+      "id": "PEND-094108",
+      "productId": "1778690911985cnib",
+      "productName": "Lector Multi 4 in 1",
+      "productCode": "1778690911985cnib",
+      "quantity": 10,
+      "createdAt": "2026-06-05T15:58:14.108Z",
+      "updatedAt": "2026-06-05T15:58:14.108Z"
+    },
+    {
+      "id": "PEND-084829",
+      "productId": "1778691087561gr1j",
+      "productName": "Adaptador Pared 2 Patas",
+      "productCode": "1778691087561gr1j",
+      "quantity": 20,
+      "createdAt": "2026-06-05T15:58:04.829Z",
+      "updatedAt": "2026-06-05T15:58:04.829Z"
+    },
+    {
+      "id": "PEND-049161",
+      "productId": "1778691216926qxsu",
+      "productName": "Cable HDMI 5.0Mts",
+      "productCode": "1778691216926qxsu",
+      "quantity": 5,
+      "createdAt": "2026-06-05T15:57:29.161Z",
+      "updatedAt": "2026-06-05T15:57:29.161Z"
+    },
+    {
+      "id": "PEND-039503",
+      "productId": "17786912169265m7w",
+      "productName": "Cable HDMI 3.0Mts",
+      "productCode": "17786912169265m7w",
+      "quantity": 5,
+      "createdAt": "2026-06-05T15:57:19.503Z",
+      "updatedAt": "2026-06-05T15:57:19.503Z"
+    },
+    {
+      "id": "PEND-032560",
+      "productId": "1778691216923f6lt",
+      "productName": "Cable HDMI 1.5Mts",
+      "productCode": "1778691216923f6lt",
+      "quantity": 10,
+      "createdAt": "2026-06-05T15:57:12.560Z",
+      "updatedAt": "2026-06-05T15:57:12.560Z"
+    },
+    {
+      "id": "PEND-024335",
+      "productId": "1778691216931cpku",
+      "productName": "Cable Micro Usb Carga Rapida",
+      "productCode": "1778691216931cpku",
+      "quantity": 10,
+      "createdAt": "2026-06-05T15:57:04.335Z",
+      "updatedAt": "2026-06-05T15:57:04.335Z"
+    },
+    {
+      "id": "PEND-988843",
+      "productId": "1778691172082tlbe",
+      "productName": "Auricular Samsung Manos Libres HS330",
+      "productCode": "1778691172082tlbe",
+      "quantity": 10,
+      "createdAt": "2026-06-05T15:56:28.843Z",
+      "updatedAt": "2026-06-05T15:56:28.843Z"
+    },
+    {
+      "id": "PEND-980081",
+      "productId": "1778691172083jq8a",
+      "productName": "Auricular Samsung S8",
+      "productCode": "1778691172083jq8a",
+      "quantity": 10,
+      "createdAt": "2026-06-05T15:56:20.081Z",
+      "updatedAt": "2026-06-05T15:56:20.081Z"
+    },
+    {
+      "id": "PEND-954946",
+      "productId": "1778691273663q194",
+      "productName": "Cable Power Trebol Mickey",
+      "productCode": "1778691273663q194",
+      "quantity": 10,
+      "createdAt": "2026-06-05T15:55:54.946Z",
+      "updatedAt": "2026-06-05T15:55:54.946Z"
+    },
+    {
+      "id": "PEND-912924",
+      "productId": "1778691474666a9yz",
+      "productName": "Cabezal Iphone 5V",
+      "productCode": "1778691474666a9yz",
+      "quantity": 5,
+      "createdAt": "2026-06-05T14:48:32.924Z",
+      "updatedAt": "2026-06-05T14:48:32.924Z"
+    },
+    {
+      "id": "PEND-900799",
+      "productId": "1778695460792u6pn",
+      "productName": "Destornillador Kit Profesional",
+      "productCode": "1778695460792u6pn",
+      "quantity": 1,
+      "createdAt": "2026-06-05T14:48:20.799Z",
+      "updatedAt": "2026-06-05T14:48:20.799Z"
+    },
+    {
+      "id": "PEND-889406",
+      "productId": "1778691005791cnj0",
+      "productName": "Tv Box 4K",
+      "productCode": "1778691005791cnj0",
+      "quantity": 3,
+      "createdAt": "2026-06-05T14:48:09.406Z",
+      "updatedAt": "2026-06-05T14:48:09.406Z"
+    },
+    {
+      "id": "PEND-880634",
+      "productId": "1778691513009hl4i",
+      "productName": "Ipods Caja grande",
+      "productCode": "1778691513009hl4i",
+      "quantity": 5,
+      "createdAt": "2026-06-05T14:48:00.634Z",
+      "updatedAt": "2026-06-05T14:48:00.634Z"
+    },
+    {
+      "id": "PEND-862436",
+      "productId": "17786912736634fvz",
+      "productName": "Cable Samsung Tipo C a Tipo C",
+      "productCode": "17786912736634fvz",
+      "quantity": 10,
+      "createdAt": "2026-06-05T14:47:42.436Z",
+      "updatedAt": "2026-06-05T14:47:42.436Z"
+    },
+    {
+      "id": "PEND-828165",
+      "productId": "17786937274312w6m",
+      "productName": "Consola HDMI Stick",
+      "productCode": "17786937274312w6m",
+      "quantity": 2,
+      "createdAt": "2026-06-05T14:47:08.165Z",
+      "updatedAt": "2026-06-05T14:47:08.165Z"
+    }
+  ],
   "monthlyStats": [],
   "siteVisits": []
 }
