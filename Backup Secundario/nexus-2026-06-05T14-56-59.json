@@ -3907,24 +3907,6 @@
       "fichaTecnicaFile": ""
     },
     {
-      "id": "1778691513012up6f",
-      "code": "1778691513012up6f",
-      "name": "Micro SD 256gb 170Mbs",
-      "price": 59000,
-      "cost": 0,
-      "stock": 0,
-      "category": "Memorias",
-      "source": "web",
-      "desc": "Importado masivamente",
-      "image": "https://images.unsplash.com/photo-1588702547919-26089e690ecc?auto=format&fit=crop&w=500&q=60",
-      "oferta": false,
-      "nuevo": false,
-      "webDesc": "Importado masivamente",
-      "ofertaPrice": "0.0",
-      "fichaTecnica": "",
-      "fichaTecnicaFile": ""
-    },
-    {
       "id": "17786915130132g2y",
       "code": "17786915130132g2y",
       "name": "Mouse Gamer Raptor Wireless 12800",
@@ -41875,6 +41857,186 @@
   ],
   "sales": [
     {
+      "id": "VEN-419199",
+      "date": "2026-06-05T14:56:59.000Z",
+      "total": 10000,
+      "paymentMethod": "Transferencia",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 10000,
+      "change": 0,
+      "items": [
+        {
+          "id": 206,
+          "saleId": "VEN-419199",
+          "productId": "1778690911982uwkr",
+          "productName": "Apoya celular",
+          "quantity": 2,
+          "price": 5000
+        }
+      ]
+    },
+    {
+      "id": "VEN-182096",
+      "date": "2026-06-05T14:53:02.000Z",
+      "total": 7000,
+      "paymentMethod": "Transferencia",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 7000,
+      "change": 0,
+      "items": [
+        {
+          "id": 205,
+          "saleId": "VEN-182096",
+          "productId": "1778691216918h83g",
+          "productName": "Cable de Red 10.0Mts",
+          "quantity": 1,
+          "price": 7000
+        }
+      ]
+    },
+    {
+      "id": "VEN-871192",
+      "date": "2026-06-05T14:14:31.000Z",
+      "total": 17000,
+      "paymentMethod": "Efectivo",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 17000,
+      "change": 0,
+      "items": [
+        {
+          "id": 204,
+          "saleId": "VEN-871192",
+          "productId": "1780422719981",
+          "productName": "Varios",
+          "quantity": 1,
+          "price": 17000
+        }
+      ]
+    },
+    {
+      "id": "VEN-625156",
+      "date": "2026-06-05T14:10:25.000Z",
+      "total": 22500,
+      "paymentMethod": "Transferencia",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 22500,
+      "change": 0,
+      "items": [
+        {
+          "id": 203,
+          "saleId": "VEN-625156",
+          "productId": "1778691273663q194",
+          "productName": "Cable Power Trebol Mickey",
+          "quantity": 5,
+          "price": 4500
+        }
+      ]
+    },
+    {
+      "id": "VEN-947195",
+      "date": "2026-06-05T13:42:27.000Z",
+      "total": 16000,
+      "paymentMethod": "Transferencia",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 16000,
+      "change": 0,
+      "items": [
+        {
+          "id": 202,
+          "saleId": "VEN-947195",
+          "productId": "1778696454093iv4f",
+          "productName": "Teclado Comun USB",
+          "quantity": 1,
+          "price": 16000
+        }
+      ]
+    },
+    {
+      "id": "VEN-259640",
+      "date": "2026-06-04T21:24:19.000Z",
+      "total": 4000,
+      "paymentMethod": "Transferencia",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 4000,
+      "change": 0,
+      "items": [
+        {
+          "id": 201,
+          "saleId": "VEN-259640",
+          "productId": "1778691216918kube",
+          "productName": "Cable de Red 2.0Mts",
+          "quantity": 1,
+          "price": 4000
+        }
+      ]
+    },
+    {
+      "id": "VEN-169255",
+      "date": "2026-06-04T21:22:48.000Z",
+      "total": 9500,
+      "paymentMethod": "Efectivo",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 9500,
+      "change": 0,
+      "items": [
+        {
+          "id": 200,
+          "saleId": "VEN-169255",
+          "productId": "1778691474666a9yz",
+          "productName": "Cabezal Iphone 5V",
+          "quantity": 1,
+          "price": 9500
+        }
+      ]
+    },
+    {
+      "id": "VEN-554009",
+      "date": "2026-06-04T21:12:33.000Z",
+      "total": 12500,
+      "paymentMethod": "Efectivo",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 12500,
+      "change": 0,
+      "items": [
+        {
+          "id": 199,
+          "saleId": "VEN-554009",
+          "productId": "1778695863073rlae",
+          "productName": "Soporte Plegable Notebook Metal",
+          "quantity": 1,
+          "price": 12500
+        }
+      ]
+    },
+    {
+      "id": "VEN-216672",
+      "date": "2026-06-04T20:16:56.000Z",
+      "total": 71500,
+      "paymentMethod": "Credito 1",
+      "clientId": "",
+      "clientName": "Cliente General",
+      "cashReceived": 71500,
+      "change": 0,
+      "items": [
+        {
+          "id": 198,
+          "saleId": "VEN-216672",
+          "productId": "1780422719981",
+          "productName": "Varios",
+          "quantity": 1,
+          "price": 65000
+        }
+      ]
+    },
+    {
       "id": "VEN-366519",
       "date": "2026-06-04T20:02:46.000Z",
       "total": 19500,
@@ -43481,6 +43643,13 @@
       "type": "efectivo",
       "descriptionText": "",
       "amount": 15000
+    },
+    {
+      "id": "EGR-018447",
+      "date": "2026-06-05T00:00:00.000Z",
+      "type": "efectivo",
+      "descriptionText": "Ypf",
+      "amount": 4000
     }
   ],
   "cashRegister": {
@@ -43707,6 +43876,22 @@
   },
   "repairs": [
     {
+      "id": "REP-075442",
+      "code": "X97XM",
+      "clientId": "1780419304170lgf2",
+      "clientName": "Juan Manuel Esso",
+      "clientPhone": "15-3060-6878",
+      "equipment": "Pc Escritorio",
+      "marca": "ninguno",
+      "modelo": "ninguno",
+      "status": "Finalizada",
+      "problem": "Bios",
+      "notes": "",
+      "price": 45000,
+      "date": "2026-06-05",
+      "updatedAt": "2026-06-05T14:24:04.412Z"
+    },
+    {
       "id": "REP-175696",
       "code": "584U4",
       "clientId": "1780584348165",
@@ -43719,7 +43904,24 @@
       "problem": "Boot",
       "notes": "Configuracion Bios",
       "price": 45000,
-      "date": "2026-06-04"
+      "date": "2026-06-04",
+      "updatedAt": ""
+    },
+    {
+      "id": "REP-502171",
+      "code": "LPEUW",
+      "clientId": "1780419304670kf0e",
+      "clientName": "Daniela Colussi",
+      "clientPhone": "15-6741-5582",
+      "equipment": "All in One",
+      "marca": "lenovo",
+      "modelo": "Lenovo",
+      "status": "Finalizada",
+      "problem": "Lentitud",
+      "notes": "",
+      "price": 0,
+      "date": "2026-06-04",
+      "updatedAt": "2026-06-05T14:20:43.082Z"
     },
     {
       "id": "REP-965730",
@@ -43734,7 +43936,8 @@
       "problem": "Actualizacion App Magis",
       "notes": "",
       "price": 0,
-      "date": "2026-06-03"
+      "date": "2026-06-03",
+      "updatedAt": ""
     },
     {
       "id": "REP-303846",
@@ -43745,11 +43948,12 @@
       "equipment": "Tv Box",
       "marca": "Mx9",
       "modelo": "Mx9",
-      "status": "Recibida",
+      "status": "Entregada",
       "problem": "Actualizar App",
       "notes": "",
       "price": 0,
-      "date": "2026-06-03"
+      "date": "2026-06-03",
+      "updatedAt": "2026-06-04T21:07:06.202Z"
     },
     {
       "id": "REP-343386",
@@ -43764,7 +43968,8 @@
       "problem": "revisar no funciona",
       "notes": "Lleva disco externo de 500\n$65000",
       "price": 65000,
-      "date": "2026-06-03"
+      "date": "2026-06-03",
+      "updatedAt": ""
     },
     {
       "id": "REP-154583",
@@ -43775,14 +43980,70 @@
       "equipment": "Tv Stick",
       "marca": "Gen",
       "modelo": "Gen",
-      "status": "Recibida",
+      "status": "Finalizada",
       "problem": "Xuper",
       "notes": "",
       "price": 20000,
-      "date": "2026-06-03"
+      "date": "2026-06-03",
+      "updatedAt": ""
     }
   ],
-  "restockPending": [],
+  "restockPending": [
+    {
+      "id": "PEND-912924",
+      "productId": "1778691474666a9yz",
+      "productName": "Cabezal Iphone 5V",
+      "productCode": "1778691474666a9yz",
+      "quantity": 5,
+      "createdAt": "2026-06-05T14:48:32.924Z",
+      "updatedAt": "2026-06-05T14:48:32.924Z"
+    },
+    {
+      "id": "PEND-900799",
+      "productId": "1778695460792u6pn",
+      "productName": "Destornillador Kit Profesional",
+      "productCode": "1778695460792u6pn",
+      "quantity": 1,
+      "createdAt": "2026-06-05T14:48:20.799Z",
+      "updatedAt": "2026-06-05T14:48:20.799Z"
+    },
+    {
+      "id": "PEND-889406",
+      "productId": "1778691005791cnj0",
+      "productName": "Tv Box 4K",
+      "productCode": "1778691005791cnj0",
+      "quantity": 3,
+      "createdAt": "2026-06-05T14:48:09.406Z",
+      "updatedAt": "2026-06-05T14:48:09.406Z"
+    },
+    {
+      "id": "PEND-880634",
+      "productId": "1778691513009hl4i",
+      "productName": "Ipods Caja grande",
+      "productCode": "1778691513009hl4i",
+      "quantity": 5,
+      "createdAt": "2026-06-05T14:48:00.634Z",
+      "updatedAt": "2026-06-05T14:48:00.634Z"
+    },
+    {
+      "id": "PEND-862436",
+      "productId": "17786912736634fvz",
+      "productName": "Cable Samsung Tipo C a Tipo C",
+      "productCode": "17786912736634fvz",
+      "quantity": 10,
+      "createdAt": "2026-06-05T14:47:42.436Z",
+      "updatedAt": "2026-06-05T14:47:42.436Z"
+    },
+    {
+      "id": "PEND-828165",
+      "productId": "17786937274312w6m",
+      "productName": "Consola HDMI Stick",
+      "productCode": "17786937274312w6m",
+      "quantity": 2,
+      "createdAt": "2026-06-05T14:47:08.165Z",
+      "updatedAt": "2026-06-05T14:47:08.165Z"
+    }
+  ],
   "monthlyStats": [],
   "siteVisits": []
 }
