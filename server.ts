@@ -1121,16 +1121,16 @@ async function startServer() {
         if (s.includes(',') || s.includes('"') || s.includes('\n') || s.includes('\r')) return '"' + s.replace(/"/g, '""') + '"';
         return s;
       };
-      const header = 'id,title,description,availability,condition,price,link,image_link,brand,inventory,quantity_to_sell_on_facebook';
+      const header = 'id,title,description,availability,condition,price,link,image_link,brand,quantity_to_sell_on_facebook';
       const rows = products.map((p: any) => [
         csvEsc(p.id || ''),
         csvEsc((p.name || '').trim()),
         csvEsc((p.desc || p.name || '').trim()),
         'in stock', 'new',
-        (p.price != null ? Number(p.price).toFixed(0) : '0.00') + ' ARS',
-        csvEsc(BASE_URL + '/index.html?id=' + encodeURIComponent(p.id || '')),
+        (p.price != null ? Number(p.price).toFixed(2) : '0.00') + ' ARS',
+        csvEsc(BASE_URL + '/web/index.html?id=' + encodeURIComponent(p.id || '')),
         csvEsc(p.image && !p.image.startsWith('data:') ? (p.image.startsWith('http') ? p.image : BASE_URL + '/' + p.image.replace(/^\//, '')) : ''),
-        csvEsc(brand), '99', '99'
+        csvEsc(brand), '99'
       ].join(','));
       const csvContent = '\uFEFF' + header + '\n' + rows.join('\n');
       fs.writeFileSync(path.join(WEB_MAIN_DIR, 'catalog.csv'), csvContent, 'utf8');
@@ -1286,19 +1286,49 @@ async function startServer() {
         if (s.includes(',') || s.includes('"') || s.includes('\n') || s.includes('\r')) return '"' + s.replace(/"/g, '""') + '"';
         return s;
       };
-      const header = 'id,title,description,availability,condition,price,link,image_link,brand,inventory,quantity_to_sell_on_facebook';
+      const header = 'id,title,description,availability,condition,price,link,image_link,brand,quantity_to_sell_on_facebook';
       const rows = products.map((p: any) => [
         csvEsc(p.id || ''), csvEsc((p.name || '').trim()), csvEsc((p.desc || p.name || '').trim()),
         'in stock', 'new',
-        (p.price != null ? Number(p.price).toFixed(0) : '0.00') + ' ARS',
-        csvEsc(BASE_URL + '/index.html?id=' + encodeURIComponent(p.id || '')),
+        (p.price != null ? Number(p.price).toFixed(2) : '0.00') + ' ARS',
+        csvEsc(BASE_URL + '/web/index.html?id=' + encodeURIComponent(p.id || '')),
         csvEsc(p.image && !p.image.startsWith('data:') ? (p.image.startsWith('http') ? p.image : BASE_URL + '/' + p.image.replace(/^\//, '')) : ''),
-        csvEsc(brand), '99', '99'
+        csvEsc(brand), '99'
       ].join(','));
       const csvContent = '\uFEFF' + header + '\n' + rows.join('\n');
       fs.writeFileSync(path.join(WEB_MAIN_DIR, 'catalog.csv'), csvContent, 'utf8');
       res.json({ success: true, count: products.length });
     } catch (e: any) { res.status(500).json({ success: false, error: e.message }); }
+  });
+
+  app.get('/api/catalog-csv', (req, res) => {
+    try {
+      const data = JSON.parse(fs.readFileSync(path.join(WEB_MAIN_DIR, 'data.json'), 'utf8'));
+      const products = data.products || [];
+      const brand = (data.config?.companyName) || 'GIGA Computers';
+      const BASE_URL = 'https://gigacomputers.com.ar';
+      const csvEsc = (v: any) => {
+        if (v == null) return '';
+        const s = String(v);
+        if (s.includes(',') || s.includes('"') || s.includes('\n') || s.includes('\r')) return '"' + s.replace(/"/g, '""') + '"';
+        return s;
+      };
+      const header = 'id,title,description,availability,condition,price,link,image_link,brand,quantity_to_sell_on_facebook';
+      const rows = products.map((p: any) => [
+        csvEsc(p.id || ''), csvEsc((p.name || '').trim()), csvEsc((p.desc || p.name || '').trim()),
+        'in stock', 'new',
+        (p.price != null ? Number(p.price).toFixed(2) : '0.00') + ' ARS',
+        csvEsc(BASE_URL + '/web/index.html?id=' + encodeURIComponent(p.id || '')),
+        csvEsc(p.image && !p.image.startsWith('data:') ? (p.image.startsWith('http') ? p.image : BASE_URL + '/' + p.image.replace(/^\//, '')) : ''),
+        csvEsc(brand), '99'
+      ].join(','));
+      const csvContent = '\uFEFF' + header + '\n' + rows.join('\n');
+      res.setHeader('Content-Type', 'text/csv; charset=utf-8');
+      res.setHeader('Content-Disposition', 'inline; filename="catalog.csv"');
+      res.send(csvContent);
+    } catch (e: any) {
+      res.status(500).json({ success: false, error: e.message });
+    }
   });
   // ========== END WEB-MAIN ROUTES ==========
 
