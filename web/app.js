@@ -715,7 +715,7 @@ const Pages = {
                 <div class="product-content">
                     <h3 class="product-title">${p.name}</h3>
                     <div class="product-price ${p.oferta ? 'oferta' : ''}" style="margin: 0.5rem 0;">${formatMoney(p.price)}</div>
-                    <button class="btn btn-whatsapp mt-4 w-100" data-product="${p.name}">
+                    <button class="btn btn-whatsapp mt-4 w-100" data-product="${p.name}" data-id="${p.id}">
                         <i class="ph ph-whatsapp-logo"></i> Consultar
                     </button>
                 </div>
@@ -726,7 +726,12 @@ const Pages = {
     _attachProductEvents() {
         document.querySelectorAll('.btn-whatsapp[data-product]').forEach(btn => {
             btn.addEventListener('click', (e) => {
-                WA.openProduct(e.target.closest('button').dataset.product);
+                const productName = e.target.closest('button').dataset.product;
+                const productId = e.target.closest('button').dataset.id;
+                WA.openProduct(productName);
+                if (typeof fbq === 'function' && productId) {
+                    fbq('track', 'ViewContent', { content_ids: [productId], content_type: 'product' });
+                }
             });
         });
     },
@@ -3529,6 +3534,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     const productId = urlParams.get('id');
     if (productId) {
         Pages.renderCatalog(false, productId);
+        if (typeof fbq === 'function') {
+            fbq('track', 'ViewContent', { content_ids: [productId], content_type: 'product' });
+        }
     } else {
         Router.handleRoute();
     }
