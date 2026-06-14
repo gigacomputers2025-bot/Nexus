@@ -8876,7 +8876,7 @@
     },
     {
       "id": "1780953448140",
-      "code": "ACC256",
+      "code": "1780953448140",
       "name": "Termo Stanley Combo",
       "price": 45000,
       "cost": 0,
@@ -8894,7 +8894,7 @@
     },
     {
       "id": "1780953644932",
-      "code": "STA2567",
+      "code": "1780953644932",
       "name": "Vaso Stanley",
       "price": 33000,
       "cost": 0,
@@ -8912,7 +8912,7 @@
     },
     {
       "id": "1780954084871",
-      "code": "CAb4354",
+      "code": "1780954084871",
       "name": "Cable iphone 1Mt",
       "price": 6000,
       "cost": 0,
@@ -8930,7 +8930,7 @@
     },
     {
       "id": "1781099443790",
-      "code": "47457",
+      "code": "1781099443790",
       "name": "Adaptador Tipo C a 3.5 y Carga",
       "price": 7500,
       "cost": 0,
@@ -8948,7 +8948,7 @@
     },
     {
       "id": "1781099562617",
-      "code": "fgsdf",
+      "code": "1781099562617",
       "name": "Tripode Celular Pro Ezra",
       "price": 27000,
       "cost": 0,
@@ -8966,7 +8966,7 @@
     },
     {
       "id": "1781099826926",
-      "code": "fsdrtwe",
+      "code": "1781099826926",
       "name": "Auricular Sport Pro Air",
       "price": 19000,
       "cost": 0,
@@ -8984,7 +8984,7 @@
     },
     {
       "id": "1781099909956",
-      "code": "Aur435",
+      "code": "1781099909956",
       "name": "Auricular 17 Pro Max Tipo C",
       "price": 8500,
       "cost": 0,
@@ -9002,7 +9002,7 @@
     },
     {
       "id": "1781099998193",
-      "code": "Mic4763",
+      "code": "1781099998193",
       "name": "Microfono Bluetooth Doble",
       "price": 19500,
       "cost": 0,
@@ -9020,7 +9020,7 @@
     },
     {
       "id": "1781100566748",
-      "code": "ACC457",
+      "code": "1781100566748",
       "name": "Chispero Electrico",
       "price": 7000,
       "cost": 0,
@@ -9038,7 +9038,7 @@
     },
     {
       "id": "1781101224645",
-      "code": "REL354",
+      "code": "1781101224645",
       "name": "Smartwatch R9 Max",
       "price": 27000,
       "cost": 0,
@@ -9056,7 +9056,7 @@
     },
     {
       "id": "1781117104962",
-      "code": "RED453435",
+      "code": "1781117104962",
       "name": "Placa Dual USB AC1300",
       "price": 35000,
       "cost": 0,
@@ -9074,7 +9074,7 @@
     },
     {
       "id": "1781117195254",
-      "code": "RED7486768",
+      "code": "1781117195254",
       "name": "Placa Mercusys Alta Ganancia",
       "price": 20000,
       "cost": 0,
@@ -9721,10 +9721,6 @@
     {
       "id": "1778677143559hu63",
       "name": "Parlantes"
-    },
-    {
-      "id": "1778677177046s2ls",
-      "name": "Pendrives"
     },
     {
       "id": "1778694719474x24z",
