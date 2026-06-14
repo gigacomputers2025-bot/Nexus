@@ -1128,7 +1128,7 @@ async function startServer() {
         csvEsc((p.desc || p.name || '').trim()),
         'in stock', 'new',
         (p.price != null ? Number(p.price).toFixed(2) : '0.00') + ' ARS',
-        csvEsc(BASE_URL + '/web/index.html?id=' + encodeURIComponent(p.id || '')),
+        csvEsc(BASE_URL + '/index.html?id=' + encodeURIComponent(p.id || '')),
         csvEsc(p.image && !p.image.startsWith('data:') ? (p.image.startsWith('http') ? p.image : BASE_URL + '/' + p.image.replace(/^\//, '')) : ''),
         csvEsc(brand), '99'
       ].join(','));
@@ -1291,7 +1291,7 @@ async function startServer() {
         csvEsc(p.id || ''), csvEsc((p.name || '').trim()), csvEsc((p.desc || p.name || '').trim()),
         'in stock', 'new',
         (p.price != null ? Number(p.price).toFixed(2) : '0.00') + ' ARS',
-        csvEsc(BASE_URL + '/web/index.html?id=' + encodeURIComponent(p.id || '')),
+        csvEsc(BASE_URL + '/index.html?id=' + encodeURIComponent(p.id || '')),
         csvEsc(p.image && !p.image.startsWith('data:') ? (p.image.startsWith('http') ? p.image : BASE_URL + '/' + p.image.replace(/^\//, '')) : ''),
         csvEsc(brand), '99'
       ].join(','));
@@ -1318,7 +1318,7 @@ async function startServer() {
         csvEsc(p.id || ''), csvEsc((p.name || '').trim()), csvEsc((p.desc || p.name || '').trim()),
         'in stock', 'new',
         (p.price != null ? Number(p.price).toFixed(2) : '0.00') + ' ARS',
-        csvEsc(BASE_URL + '/web/index.html?id=' + encodeURIComponent(p.id || '')),
+        csvEsc(BASE_URL + '/index.html?id=' + encodeURIComponent(p.id || '')),
         csvEsc(p.image && !p.image.startsWith('data:') ? (p.image.startsWith('http') ? p.image : BASE_URL + '/' + p.image.replace(/^\//, '')) : ''),
         csvEsc(brand), '99'
       ].join(','));
